@@ -1,20 +1,34 @@
+li a {
+  line-height: 35px;
+}
 
- /*   <!-- ---------------------------------En tête ------------------------------------------------> */
+/* Barre de navigation */
 
+li a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: 0.4s ease, 0.4s ease;
+  background-color: #fff;
+}
 
+a:active {
+  background-color: #ea3d52;
+}
 
+li a:hover:after {
+  width: 90%;
+  background: #fff;
+}
 
-  /*  <!------------------------------------ Menu --------------------------------------------------> */
+li a:hover {
+  background-color: #ea3d52;
+  /* background-color: #67a3bc; */
+}
 
-
-   /* <!---------------------------- Banière -------------------------------------------------------> */
-
-
-
-
-   /*  <!----------------------------------- Premier paragraphe-------------------------------------------------> */
-
-  /*   <---------------- Footer ---------------------------------------> */
-
-
-
+a:visited {
+  color: #ea3d52;
+}

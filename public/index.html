@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Fiche de cour</title>
+  </head>
+  <body>
+    <nav id="barre-navig" class="navbar navbar-expand-lg py-0 bg-black">
+      <div class="container-fluid">
+        <a id="titre" class="navbar-brand fs-2 text-white" href="index.html"
+          >Accueil</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-lg-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active p-lg-3 pe-lg-5 text-white"
+                aria-current="page"
+                href="#"
+                >Chapitre 1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active p-lg-3 pe-lg-5 text-white"
+                aria-current="page"
+                href="#"
+                >Chapitre 2</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <h1>Fiche de cours : GIT (outil de versioning)</h1>
+        <p>
+          Permet de faciliter le travail collaboratif entre plusieurs
+          développeur sur un même projet. L'intérêt est d'avoir un historique
+          des modifications (appelée version) que l'on peut rétablir à tout
+          moment. Git permet de suivre les évolutions d'un projet en utilisant
+          le principe de "branche". Chaque branche correspond à une version de
+          votre projet qui évolue de manière INDEPENDANTE ! Cela permet de
+          pouvoir expérimenter des solutions sans impacter le code existant.
+          Pour commencer, nous travaillerons avec une seule branche afin de
+          mieux comprendre ce que ce principe implique. Good to know : La
+          branche "principale" d'un projet et souvent appellée "master" ou
+          "main". Cette branche doit être la plus saine possible !
+        </p>
+      </div>
+    </header>
+  </body>
 </html>
