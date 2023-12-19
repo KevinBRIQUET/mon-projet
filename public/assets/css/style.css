@@ -1,6 +1,11 @@
+body {
+  background-color: #f3e1dd;
+}
+
 h1 {
   font-family: "Dancing Script";
   font-size: 65px;
+  color: #ea3d52;
 }
 
 h2 {
