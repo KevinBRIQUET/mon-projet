@@ -1,8 +1,13 @@
-li a {
-  line-height: 35px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Barre de navigation */
+
+li a {
+  line-height: 35px;
+}
 
 li a:after {
   content: "";
@@ -31,4 +36,41 @@ li a:hover {
 
 a:visited {
   color: #ea3d52;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f4f4f4;
+  padding: 2px 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: square;
 }

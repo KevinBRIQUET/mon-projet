@@ -10,10 +10,9 @@
   <body>
     <nav id="barre-navig" class="navbar navbar-expand-lg py-0 bg-black">
       <div class="container-fluid">
-        <a id="titre" class="navbar-brand fs-2 text-white" href="index.html"
+        <a id="titre" class="navbar-brand fs-2 text-white" href="#"
           >Accueil Github</a
         >
-
         <button
           class="navbar-toggler"
           type="button"
@@ -35,7 +34,7 @@
               <a
                 class="nav-link active p-lg-3 pe-lg-5 text-white"
                 aria-current="page"
-                href="#"
+                href="index.html"
                 >Chapitre 1</a
               >
             </li>
@@ -52,50 +51,44 @@
       </div>
     </nav>
     <header>
-      <div class="container p-5">
-        <h1 class="pb-5">Qu'est-ce que le contrôle de version ?</h1>
-        <p>
-          Le contrôle de version, également appelé contrôle de source, désigne
-          la pratique consistant à suivre et à gérer les changements apportés au
-          code d'un logiciel. Les systèmes de contrôle de version sont des
-          outils logiciels qui permettent aux équipes de développement de gérer
-          les changements apportés au code source au fil du temps. Avec
-          l'accélération des environnements de développement, les systèmes de
-          contrôle de version aident les équipes de développement à travailler
-          plus rapidement et plus intelligemment. Ils sont particulièrement
-          utiles pour les équipes DevOps, car ils leur permettent de réduire le
-          temps de développement et d'assurer le succès des déploiements.
-        </p>
-        <p>
-          Les logiciels de contrôle de version gardent une trace de chaque
-          changement apporté au code dans un type spécial de base de données. Si
-          une erreur est commise, les développeurs peuvent revenir en arrière et
-          comparer les versions antérieures du code, ce qui leur permet de
-          corriger l'erreur tout en minimisant les perturbations pour tous les
-          membres de l'équipe.
-        </p>
-      </div>
-      <div class="container p-5">
-        <h2 class="pb-5">
-          La branche "principale" d'un projet et souvent appellée "master" ou
-          "main". Cette branche doit être la plus saine possible !
-        </h2>
-        <p>
-          PRINCIPALES LIGNES DE COMMANDE À CONNAÎTRE LORS DE L'UTILISATION DE
-          GIT <br />
-          Nous allons voir ici comment utiliser Git lors de la création et le
-          développement d’un projet. <br />
-          Ces utilisations sont à saisir en ligne de commande dans l’invité de
-          commande. <br />
-          A la première étape du projet, il s’agit de créer un projet ou bien
-          d’en récupérer un déjà existant sur un hébergeur de code, tel que
-          Github par exemple. <br />
-          Si vous décidez de créer votre dépôt, alors la commande a exécuter est
-          : git init <br />
-          Si vous préférez récupérer un projet déjà existant, alors vous devez
-          lancer la commande : git clone suivi de l’adresse url du projet.
-        </p>
-      </div>
+      <h1>Cours sur GitHub</h1>
     </header>
+    <section>
+      <h2>Introduction à Git et GitHub</h2>
+      <p>
+        Git est un système de contrôle de version très populaire, et GitHub est
+        une plateforme d'hébergement de projets Git. Ce cours vous introduira
+        aux concepts fondamentaux de Git et vous montrera comment utiliser
+        GitHub pour collaborer sur des projets.
+      </p>
+    </section>
+    <section>
+      <h2>Leçon 1 : Installation de Git</h2>
+      <p>
+        Avant de commencer à utiliser Git, vous devez l'installer sur votre
+        machine. Suivez les instructions appropriées pour votre système
+        d'exploitation.
+      </p>
+      <code>sudo apt-get install git</code>
+      <code>brew install git</code>
+    </section>
+
+    <section>
+      <h2>Leçon 2 : Configuration de Git</h2>
+      <p>
+        Configurez Git avec vos informations personnelles, telles que votre nom
+        d'utilisateur et votre adresse e-mail.
+      </p>
+      <code>git config --global user.name "Votre Nom"</code>
+      <code>git config --global user.email "votre@email.com"</code>
+    </section>
+    <section>
+      <h2>Leçon 3 : Création d'un dépôt Git</h2>
+      <p>
+        Apprenez à créer un nouveau dépôt Git pour suivre les modifications de
+        votre projet.
+      </p>
+      <code>git init</code>
+    </section>
   </body>
 </html>
