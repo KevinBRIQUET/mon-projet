@@ -1,9 +1,22 @@
+body {
+  background-color: #f3e1dd;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 65px;
+  color: #ea3d52;
+}
+
+h2 {
+  font-family: "Dancing Script";
+}
+
+/* Barre de navigation */
 
 li a {
   line-height: 35px;
 }
-
-/* Barre de navigation */
 
 li a:after {
   content: "";
@@ -32,4 +45,39 @@ li a:hover {
 
 a:visited {
   color: #ea3d52;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f4f4f4;
+  padding: 2px 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: square;
 }
